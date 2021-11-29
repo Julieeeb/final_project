@@ -1,5 +1,5 @@
 ---
-title: "Final_Project: Cereals"
+title: "Cereals of 1993"
 output: html_document
 ---
 
@@ -21,6 +21,8 @@ library(ggplot2)
 cereal <- read_csv("DATA 2401/cereal.csv", na = "-1")
 glimpse(cereal)
 ```
+
+
 # Types of cereal: Hot vs Cold
 ```{r}
 cereal %>% 
